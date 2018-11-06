@@ -1,11 +1,8 @@
 * {
     font-family: Verdana, Arial, sans-serif;
 }
-
 a {
-
     color: #70579D;
-
 }
 #main {
     max-width: 800px;
@@ -33,7 +30,7 @@ a {
     width: 24px;
     line-height: 3.5;
 }
-.article-opt: hover {
+.article-opt:hover {
     color: red;
 }
 .article-overview {
@@ -43,8 +40,10 @@ a {
     text-decoration: none;
 }
 .article-overview a:hover {
+text-overview a: hover {
     text-decoration: underline;
 }
+
 .pipe {
     color: #ccc;
     margin: 0 10px;
@@ -105,7 +104,7 @@ p.lister-item-summary::selection {
     color: yellow;
     background: red;
 }
-.lister >.lister-item >.lister-item-content a {
+.lister >.lister-item >. lister-item-content a {
     text-decoration: none;
     color: #70579D;;
 }
