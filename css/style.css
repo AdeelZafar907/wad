@@ -1,64 +1,59 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
-
-* {
-    font-family: 'Inconsolata', monospace;
+#header-wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+.actions {
+    color: #f3543a;
+}
+.TitleH1 {
+    display: block;
+    margin-bottom: 25px;
+    background: #f3543a;
+    margin-left: 0;
+    color: #FFF;
+    font-family: "Bliss2Bold",Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    padding: 5px;
+}
+.TitleH2 {
+    display: block;
+    margin-bottom: 25px;
+    background: #f39c12;
+    margin-left: 0;
+    color: #FFF;
+    font-family: "Bliss2Bold",Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    padding: 5px;
 }
 
-.quiz-wrapper {
-    position: relative;
-    width: 75%;
-    margin: auto;
-    background-color: lightskyblue;
-    top: 100px;
-    padding: 10px;
-    border-radius: 10px;
-}
-ul {
-    list-style-type: none;
+.sav-acct-info {
+    float: left;
+    border-bottom: 1px solid #d9d8d8;
+    width: 100%;
+    clear: both;
+    padding-bottom: 9px;
+    height: auto !important;
 }
 
-li {
-    font-size: 2em;
-    color: #563e11;
-}
-input[type=radio]{
-    height: 2em;
-    width: 20px;
-    border: 0;
-}
 
-#next-btn {
-    text-align: center;
-    background-color: #805724;
-    width: 150px;
-    height: 60px;
-    border-radius: 10px;
-    color: white;
+.acct-head {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    color: #404040;
     font-weight: bold;
+    width: 41% !important;
+    float: left;
+    padding-bottom: 5px;
 }
 
-#question {
-    text-align: center;
-    font-size: 2em;
-    width: 90%;
-    margin: auto;
-    height: auto;
-    background-color: #805724;
-    border-radius: 8px;
-    color: white;
-    padding: 10px;
-}
-
-
-#quiz-message {
-    color: red;
-    text-align: center;
-    font-size: 2em;
-    margin: 20px;
-}
-
-#result {
-    text-align: center;
-    font-size: 2em;
-    margin: 20px;
+.acct-desc {
+    font-family: "Trebuchet MS";
+    color: #696a6c;
+    padding-top: 10px !important;
+    width: 49%;
+    float: left;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
 }
